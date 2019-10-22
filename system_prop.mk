@@ -51,6 +51,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.disable_backpressure=1 \
     debug.sf.latch_unsignaled=1 \
+    debug.sf.enable_gl_backpressure=1 \
     debug.sf.enable_hwc_vds=1 \
     debug.cpurend.vsync=false
 
@@ -80,6 +81,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.dbg.wfc_avail_ovr=1 \
     persist.radio.NO_STAPA=1 \
     persist.radio.VT_HYBRID_ENABLE=1 \
+    persist.sys.fflag.override.settings_network_and_internet_v2=true \
+    persist.radio.VT_CAM_INTERFACE=1 \
     persist.vendor.data.iwlan.enable=true \
     persist.vendor.ims.disableADBLogs=1 \
     persist.vendor.ims.disableIMSLogs=1 \
