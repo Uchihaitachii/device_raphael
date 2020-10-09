@@ -135,6 +135,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.power@1.2-service.raphael
 
+# Preopt SystemUI
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    SystemUI
+
 # Ril
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.4
